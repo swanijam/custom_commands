@@ -1,0 +1,2 @@
+#!/bin/bash
+CLICOLOR_FORCE=1 ls -1aFGP  $1 | awk '{ print "\t"$0 }' | sort -f
